@@ -50,7 +50,7 @@ if uploaded_file is not None:
         if st.session_state.show_video:
             video_placeholder.image(pencil_sketch_frame, channels="GRAY")
         
-        time.sleep(0.02)  # Adjust the delay time as needed (e.g., 0.1 seconds)
+        time.sleep(0.00)  # Adjust the delay time as needed (e.g., 0.1 seconds)
     
     video_writer.release()
     video_capture.release()
