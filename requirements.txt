@@ -1,0 +1,7 @@
+cv2
+streamlit
+numpy
+tempfile
+os
+time
+opencv-python-headless
